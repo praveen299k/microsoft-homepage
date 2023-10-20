@@ -1,0 +1,191 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #e3f4f4;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  /* width: 90%; */
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+.logo-section {
+  width: 120px;
+}
+.logo-section img {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+}
+
+.left-nav {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.left-nav ul {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: space-evenly;
+}
+
+.right-nav ul {
+  display: flex;
+}
+
+.right-nav li {
+  margin-left: 20px;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+i {
+  margin-left: 3px;
+}
+
+/* HERO SECTION======= */
+
+.hero-img {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero-img img {
+  width: 100%;
+  display: block;
+}
+
+.left-hero-box {
+  position: absolute;
+  width: 40%;
+  top: 10%;
+  padding: 80px;
+}
+
+.hero-btn a:first-child {
+  color: #fff;
+  background-color: #3876bf;
+  padding: 8px 15px;
+  text-decoration: none;
+}
+
+.hero-btn a:nth-child(2n) {
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+}
+
+.hero-img h2 {
+  font-size: 2rem;
+}
+
+/* MIDDLE LINKS */
+
+.middle-links {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-links .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.middle-links a {
+  color: #7752fe;
+  font-weight: 700;
+}
+
+/* DEVICES */
+
+.devices {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.devices .box {
+  flex-grow: 1;
+}
+
+/* ANNOUCEMENT */
+
+.announcement {
+  margin-top: 50px;
+  position: relative;
+}
+
+.announcement .info {
+  position: absolute;
+  top: 40%;
+  width: 40%;
+  padding-left: 100px;
+}
+
+.announcement h2 {
+  font-size: 2rem;
+}
+.announcement p {
+  margin-bottom: 30px;
+}
+
+.announcement a {
+  color: white;
+  background-color: #3876bf;
+  padding: 8px 16px;
+  margin-top: 10px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #e3dffd;
+  margin-top: 50px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
